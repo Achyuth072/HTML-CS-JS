@@ -8,7 +8,7 @@
     <script type="text/javascript" src="../JS/Workout3.js"></script>
 </head>
 <body>
-    <form method="post" class="fc" onsubmit="handleSubmit()">
+    <form class="fc">
         <div>
             <label>Name :</label>
             <input type="text" id="t1" name="text1" />
@@ -19,18 +19,18 @@
         </div>
         <div>
             <label>Location :</label>
-            <textarea cols="6" rows="4" id="ta1"></textarea>
-        </div>
-        <div>
-            <label>Designation :</label>
             <input type="text" id="t3" name="text3" />
         </div>
         <div>
-            <label>Company</label>
+            <label>Designation :</label>
             <input type="text" id="t4" name="text4" />
         </div>
+        <div>
+            <label>Company</label>
+            <input type="text" id="t5" name="text5" />
+        </div>
         <div>            
-            <input type="button" id="b1" value="submit" />
+            <input type="button" id="b1" value="submit" onclick="handleSubmit()" />
         </div>
     </form>
 </body>
